@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<package >
+
+<package>
   <metadata>
     <id>ConfigAssistant</id>
     <version>{AssemblyInfoVersion}</version>
@@ -8,7 +9,7 @@
     <owners>Aaron Todd</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Configuration helper classes.</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes></releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags>Configuration AppSettings Helpers</tags>
   </metadata>
