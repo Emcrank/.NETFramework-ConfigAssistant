@@ -52,6 +52,17 @@ namespace ConfigAssistant
         /// </summary>
         /// <param name="key">The key for the setting.</param>
         /// <returns>The setting value.</returns>
+        public static string Get(string key)
+        {
+            return Get<string>(key);
+        }
+
+        /// <summary>
+        /// Gets a required string value from appSettings section.
+        /// </summary>
+        /// <param name="key">The key for the setting.</param>
+        /// <returns>The setting value.</returns>
+        /// <exception cref="ConfigurationErrorsException">Thrown if setting not found.</exception>
         public static string GetRequired(string key)
         {
             return GetRequired<string>(key);
