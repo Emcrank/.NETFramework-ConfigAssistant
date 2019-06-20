@@ -23,8 +23,7 @@ namespace ConfigAssistant
 
         public static string Get(string name)
         {
-            var connectionStringElement = ConfigurationManager.ConnectionStrings[name];
-            return connectionStringElement?.ConnectionString;
+            return ConfigurationManager.ConnectionStrings[name]?.ConnectionString;
         }
     }
 }
